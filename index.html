@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dateiverwaltung</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+
+    <div class="container Dateiverwaltung-wrapper">
+        
+        <div class="row">
+            <div class="col">
+                <section class="datei-header">
+                    <span class="lodur-icon-arrow-thin-left"></span>
+                    <h1>Dateiverwaltung</h1>
+                    <span id="show-folderOptions" class="lodur-icon-pending"></span>
+                </section>
+            </div>
+        </div>
+
+        
+        <div class="row">
+            <div class="col">
+                <div class="datei-folder--option" style="display:none;">
+                    <form>
+                        <span class="lodur-icon-search"></span>
+                        <input type="search" placeholder="Search">
+                    </form>
+                    <div class="datei-folderActions">
+                        <span class="lodur-icon-edit"></span>
+                        <span class="lodur-icon-bin"></span>
+                        <span class="lodur-icon-add"></span>
+                        <span class="lodur-icon-upload"></span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <section class="datei-folder--container">
+                    <ul>
+                        <li>
+                            <a href="files.html">
+                                <span class="lodur-icon-folder-closed"></span>
+                                <span class="datei-fileFolder--name">Folder name goes here</span>
+                                <span class="datei-file--count">(12)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="files.html">
+                                <span class="lodur-icon-folder-closed"></span>
+                                <span class="datei-fileFolder--name">Folder name goes here</span>
+                                <span class="datei-file--count">(12)</span>
+                                <span class="datei-newFile float-right">3</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="files.html">
+                                <span class="lodur-icon-folder-closed"></span>
+                                <span class="datei-fileFolder--name">Folder name goes here</span>
+                                <span class="datei-file--count">(12)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="files.html">
+                                <span class="lodur-icon-folder-closed"></span>
+                                <span class="datei-fileFolder--name">Folder name goes here</span>
+                                <span class="datei-file--count">(12)</span>
+                                <span class="datei-newFile float-right">10</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="files.html">
+                                <span class="lodur-icon-folder-closed"></span>
+                                <span class="datei-fileFolder--name">Folder name goes here</span>
+                                <span class="datei-file--count">(12)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="files.html">
+                                <span class="lodur-icon-folder-closed"></span>
+                                <span class="datei-fileFolder--name">Folder name goes here</span>
+                                <span class="datei-file--count">(12)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="files.html">
+                                <span class="lodur-icon-folder-closed"></span>
+                                <span class="datei-fileFolder--name">Folder name goes here</span>
+                                <span class="datei-file--count">(12)</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="files.html">
+                                <span class="lodur-icon-folder-closed"></span>
+                                <span class="datei-fileFolder--name">Folder name goes here</span>
+                                <span class="datei-file--count">(12)</span>
+                                <span class="datei-newFile float-right">1</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    <script src='https://code.jquery.com/jquery-2.1.1.js'></script>
+
+
+    <script>
+
+    jQuery("#show-folderOptions").on("click", function() {
+        jQuery(".datei-folder--option").fadeToggle( "fast");
+    });
+
+    // $('#datei-folderOptions-trigger').on('click', function(e) {
+    //   $('.datei-file--container').toggleClass("move-down-class"); //you can list several class names 
+    //   e.preventDefault();
+    // });
+
+
+    </script>
+            
+
+</body>
+</html>
