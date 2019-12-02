@@ -810,12 +810,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  .Dateiverwaltung-wrapper section.datei-header span.lodur-icon-arrow-thin-left {
+  .Dateiverwaltung-wrapper section.datei-header a span.lodur-icon-arrow-thin-left {
     font-size: 20px;
     color: #9EA0AE; }
-    .Dateiverwaltung-wrapper section.datei-header span.lodur-icon-arrow-thin-left:hover {
+    .Dateiverwaltung-wrapper section.datei-header a span.lodur-icon-arrow-thin-left:hover {
       color: #3E4050;
       text-decoration: none; }
+  .Dateiverwaltung-wrapper section.datei-header a:hover {
+    text-decoration: none; }
   .Dateiverwaltung-wrapper section.datei-header h1 {
     font-size: 16px;
     font-weight: 600;
