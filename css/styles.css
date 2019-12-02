@@ -960,3 +960,40 @@ body {
       font-size: 11px;
       color: #D5D8E8;
       margin-left: auto; }
+
+span.lodur-icon-pdf {
+  color: #F64000; }
+
+span.lodur-icon-ms-word {
+  color: #0074FF; }
+
+span.lodur-icon-excel {
+  color: #578B1A; }
+
+.datei-fileOptions .modal-header {
+  display: flex;
+  align-items: center;
+  padding: 8px 15px; }
+  .datei-fileOptions .modal-header h5 {
+    margin-left: 8px;
+    font-size: 15px; }
+
+.datei-fileOptions input.datei-fileName--edit {
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #ccc;
+  border-left: 0;
+  width: 100%;
+  padding: 0 0 5px 0;
+  font-size: 14px; }
+  .datei-fileOptions input.datei-fileName--edit:focus {
+    outline: none; }
+
+.datei-fileOptions .datei-fileAction {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  height: 50px;
+  justify-content: space-evenly; }
+  .datei-fileOptions .datei-fileAction span {
+    font-size: 24px; }
