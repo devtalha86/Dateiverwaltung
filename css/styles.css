@@ -855,7 +855,7 @@ body {
       background: #EFF0F6;
       border: none;
       padding: 3px 10px 3px 35px;
-      width: 75%;
+      width: 140px;
       -webkit-border-radius: 10em;
       -moz-border-radius: 10em;
       border-radius: 10em;
@@ -865,7 +865,7 @@ body {
   .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span {
     font-size: 18px;
     color: #D5D8E8;
-    margin-right: 15px; }
+    margin-right: 8px; }
     .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span:hover {
       color: #3E4050; }
     .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span:last-child {
