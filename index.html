@@ -29,7 +29,8 @@
             <div class="col">
                 <div class="datei-folder--option" style="display:none;">
                     <form>
-                        <input type="search" placeholder="">
+                        <input id="dateiSearch" type="search" placeholder="">
+                        <span id="datei-searchClose" class="lodur-icon-close2"></span>
                     </form>
                     <div class="datei-folderActions">
                         <span class="lodur-icon-edit"></span>
@@ -122,7 +123,25 @@
     <script src='https://code.jquery.com/jquery-2.1.1.js'></script>
 
 
+
+
     <script>
+
+    $("#dateiSearch").focusin(function() {
+        $(".datei-folderActions").hide();
+    }).focusout(function () {
+        $(".datei-folderActions").fadeIn(400);
+    });
+    
+
+    $("#dateiSearch").focusin(function() {
+        $("#datei-searchClose").show();
+    }).focusout(function () {
+        $("#datei-searchClose").hide();
+    });
+
+    
+
 
     jQuery("#show-folderOptions").on("click", function() {
         jQuery(".datei-folder--option").fadeToggle( "fast");
