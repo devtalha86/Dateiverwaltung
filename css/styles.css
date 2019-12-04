@@ -811,7 +811,7 @@ body {
   justify-content: space-between;
   align-items: center; }
   .Dateiverwaltung-wrapper section.datei-header a span.lodur-icon-arrow-thin-left {
-    font-size: 20px;
+    font-size: 30px;
     color: #9EA0AE; }
     .Dateiverwaltung-wrapper section.datei-header a span.lodur-icon-arrow-thin-left:hover {
       color: #3E4050;
@@ -923,7 +923,7 @@ body {
       outline: none;
       text-decoration: none; }
   .Dateiverwaltung-wrapper .datei-folder--container ul li:hover {
-    background: #F6F6F6;
+    background: #eceaf1;
     transition: 0.3s linear; }
   .Dateiverwaltung-wrapper .datei-folder--container ul li span.lodur-icon-pdf {
     color: #F64000; }
@@ -962,7 +962,7 @@ body {
     border-bottom: 1px solid #E6E6E6;
     transition: 0.3s linear; }
     .Dateiverwaltung-wrapper .datei-file--container ul li:hover {
-      background: #F6F6F6;
+      background: #eceaf1;
       transition: 0.3s linear; }
     .Dateiverwaltung-wrapper .datei-file--container ul li span.lodur-icon-pdf {
       color: #F64000; }
