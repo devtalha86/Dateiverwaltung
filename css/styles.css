@@ -923,7 +923,7 @@ body {
       outline: none;
       text-decoration: none; }
   .Dateiverwaltung-wrapper .datei-folder--container ul li:hover {
-    background: #eceaf1;
+    background: #fff5de;
     transition: 0.3s linear; }
   .Dateiverwaltung-wrapper .datei-folder--container ul li span.lodur-icon-pdf {
     color: #F64000; }
@@ -962,7 +962,7 @@ body {
     border-bottom: 1px solid #E6E6E6;
     transition: 0.3s linear; }
     .Dateiverwaltung-wrapper .datei-file--container ul li:hover {
-      background: #eceaf1;
+      background: #fff5de;
       transition: 0.3s linear; }
     .Dateiverwaltung-wrapper .datei-file--container ul li span.lodur-icon-pdf {
       color: #F64000; }
