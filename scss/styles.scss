@@ -1418,6 +1418,8 @@ body{
         padding: 0;
         width: 38px;
         height: 38px;
+
+        text-indent: -99999999px;
         
         -webkit-border-radius: 10em;
         -moz-border-radius: 10em;
@@ -1434,6 +1436,7 @@ body{
         width: 250px;
         padding-left: 38px;
         color: #000;
+        text-indent: initial;
         cursor: auto;
 
         -webkit-transition: all .5s;
