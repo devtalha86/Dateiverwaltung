@@ -831,7 +831,7 @@ body {
 
 .Dateiverwaltung-wrapper .datei-folder--option {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 20px 0 20px; }
   .Dateiverwaltung-wrapper .datei-folder--option form {
@@ -860,39 +860,51 @@ body {
       background-position: 7px 6px;
       border: none;
       padding: 0;
-      width: 35px;
-      height: 35px;
+      width: 38px;
+      height: 38px;
       -webkit-border-radius: 10em;
       -moz-border-radius: 10em;
-      border-radius: 10em;
-      -webkit-transition: all .5s;
-      -moz-transition: all .5s;
-      transition: all .5s; }
+      border-radius: 10em; }
     .Dateiverwaltung-wrapper .datei-folder--option form input[type=search]:focus {
       background: #EFF0F6 url(../assets/image/search.svg);
       background-repeat: no-repeat;
       background-size: 22px 22px;
       background-position: 7px 6px;
-      width: 130px;
-      padding-left: 32px;
+      width: 250px;
+      padding-left: 38px;
       color: #000;
-      cursor: auto; }
-  .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span {
-    font-size: 18px;
-    color: #D5D8E8;
-    margin-right: 8px; }
-    .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span:hover {
-      color: #3E4050; }
-    .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span:last-child {
-      margin-right: 0; }
-  .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span.lodur-icon-edit {
-    color: #F5A623; }
-  .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span.lodur-icon-bin {
-    color: #D0021B; }
-  .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span.lodur-icon-add {
-    color: #00A87D; }
-  .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span.lodur-icon-upload {
-    color: #4A90E2; }
+      cursor: auto;
+      -webkit-transition: all .5s;
+      -moz-transition: all .5s;
+      transition: all .5s; }
+    .Dateiverwaltung-wrapper .datei-folder--option form span.lodur-icon-close2 {
+      display: none;
+      position: absolute;
+      right: 10px;
+      top: 10px; }
+  .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions {
+    margin-left: 15px; }
+    .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span {
+      background: #EFF0F6;
+      font-size: 18px;
+      color: #D5D8E8;
+      margin-right: 8px;
+      padding: 10px;
+      -webkit-border-radius: 10em;
+      -moz-border-radius: 10em;
+      border-radius: 10em; }
+      .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span:hover {
+        color: #3E4050; }
+      .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span:last-child {
+        margin-right: 0; }
+    .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span.lodur-icon-edit {
+      color: #F5A623; }
+    .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span.lodur-icon-bin {
+      color: #D0021B; }
+    .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span.lodur-icon-add {
+      color: #00A87D; }
+    .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span.lodur-icon-upload {
+      color: #4A90E2; }
 
 .Dateiverwaltung-wrapper .datei-folder--container ul {
   margin: 0;
