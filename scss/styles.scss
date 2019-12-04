@@ -1351,7 +1351,7 @@ body{
     align-items: center;
     a{
       span.lodur-icon-arrow-thin-left{
-        font-size: 20px;
+        font-size: 30px;
         color: #9EA0AE;
         &:hover{
           color: $primary-dark;
@@ -1511,7 +1511,7 @@ body{
         }
         
         &:hover{
-          background: #F6F6F6;
+          background: #fff5de;
           transition: 0.3s linear;
         }
         span.lodur-icon-pdf{
@@ -1566,7 +1566,7 @@ body{
         
         
         &:hover{
-          background: #F6F6F6;
+          background: #fff5de;
           transition: 0.3s linear;
         }
         span.lodur-icon-pdf{
