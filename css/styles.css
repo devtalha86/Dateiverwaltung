@@ -840,8 +840,8 @@ body {
       color: #AAAAAA;
       font-size: 20px;
       position: absolute;
-      left: 10px;
-      top: 5px; }
+      left: 8px;
+      top: 7px; }
     .Dateiverwaltung-wrapper .datei-folder--option form input {
       outline: none; }
     .Dateiverwaltung-wrapper .datei-folder--option form input[type=search] {
@@ -854,16 +854,29 @@ body {
     .Dateiverwaltung-wrapper .datei-folder--option form input::-webkit-search-cancel-button {
       display: none; }
     .Dateiverwaltung-wrapper .datei-folder--option form input[type=search] {
-      background: #EFF0F6;
+      background: #EFF0F6 url(../assets/image/search.svg);
+      background-repeat: no-repeat;
+      background-size: 22px 22px;
+      background-position: 7px 6px;
       border: none;
-      padding: 3px 10px 3px 35px;
-      width: 140px;
+      padding: 0;
+      width: 35px;
+      height: 35px;
       -webkit-border-radius: 10em;
       -moz-border-radius: 10em;
       border-radius: 10em;
       -webkit-transition: all .5s;
       -moz-transition: all .5s;
       transition: all .5s; }
+    .Dateiverwaltung-wrapper .datei-folder--option form input[type=search]:focus {
+      background: #EFF0F6 url(../assets/image/search.svg);
+      background-repeat: no-repeat;
+      background-size: 22px 22px;
+      background-position: 7px 6px;
+      width: 130px;
+      padding-left: 32px;
+      color: #000;
+      cursor: auto; }
   .Dateiverwaltung-wrapper .datei-folder--option .datei-folderActions span {
     font-size: 18px;
     color: #D5D8E8;
