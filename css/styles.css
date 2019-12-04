@@ -848,7 +848,7 @@ body {
       -webkit-appearance: textfield;
       -webkit-box-sizing: content-box;
       font-family: inherit;
-      font-size: 12px;
+      font-size: 14px;
       height: 25px; }
     .Dateiverwaltung-wrapper .datei-folder--option form input::-webkit-search-decoration,
     .Dateiverwaltung-wrapper .datei-folder--option form input::-webkit-search-cancel-button {
